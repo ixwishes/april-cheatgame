@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	}
+
+	h1 {
+	font-size: 20px;
+	text-align: center;
+	}
+
+	h3 {
+	font-size: 14px !important;
+	text-align:center;
+	margin: 8px 10px;
+	}
+
+	input type['checkbox'] {
+	display: inline-block;
+	text-align: center;
+}
+
+h2 {
+	color: #FF0000; 
+}
+
+div.cards, div.cards1 {
+	width: 570px;
+	margin: 15px auto;
+}
+
+div.cards1 img {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+body input[type='submit'] {
+	background: #81a9d9;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 12px;
+	cursor: pointer;
+	display: block;
+	border-radius: 6px;
+	width: 180px;
+	height: 40px;
+	margin: 15px auto;
+}
+div.error {
+	color: #FF0000;
+	font-size: 13px;
+	display: block;
+	width: 300px;
+	margin: 15px auto;
+	padding: 8px;
+	border: 1px solid #FF0000;
+}
+body table {
+	margin: 15px auto;
+}
+
+table, th, td {
+	border: 1px solid #f1f1f1;
+}
+
+table th {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+table td {
+	padding: 10px;
+	text-align: center;
+}
